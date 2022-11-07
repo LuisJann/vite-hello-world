@@ -1,5 +1,6 @@
 <script>
-import AppTitle from "./components/AppTitle.vue"
+import AppTitle from "./components/AppTitle.vue";
+import AppBanner from "./components/AppHero.vue";
 
 export default {
   data(){
@@ -7,13 +8,17 @@ export default {
 
     }
   },
-  components:{AppTitle}
+  components:{
+    AppTitle,
+    AppHero,
+  }
 }
 </script>
 
 <template>
   <section>
     <AppTitle />
+    <AppHero />
   </section>
 </template>
 
