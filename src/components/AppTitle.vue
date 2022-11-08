@@ -1,5 +1,6 @@
 <script>
 export default {
+    name:"AppTitle",
     data(){
         return{}
     }
@@ -10,4 +11,8 @@ export default {
     <h1>La mia prima app con Vite!</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+    h1{
+        text-align: center;
+    }
+</style>

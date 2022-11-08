@@ -1,5 +1,6 @@
 <script>
 export default{
+    name:"AppHero",
     data(){
         return{}
     }
@@ -8,13 +9,14 @@ export default{
 
 <template>
     <section class="banner">
-        <img src="../assets/img/download.jpeg" alt="">
+        <div class="wrapper">
+            <img src="../assets/img/download.jpeg" alt="">
+        </div>
     </section>
 </template>
 
 <style scoped>
 .banner{
     width: 100%;
-    
 }
 </style>
